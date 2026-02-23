@@ -28,8 +28,12 @@ Business Context:
 *Provide system resilience via asynchronous processing to handle high complaint volumes.
 
 ## Key Diagrams to Include:
-1. **Use Case Diagram** – shows actors and primary system use cases ![Use Case Diagram](diagrams/use-case.png)
-2. **Class Diagram** – illustrates system objects, relationships, and inheritance ![Class Diagram](diagrams/class-diagram.png)
-3. **Sequence Diagram** – demonstrates the flow of actions from complaint submission to resolution ![Sequence Diagram](diagrams/sequence-diagram.png)
-4. **BPMN Diagram** – full end-to-end process including the “Client Contact” subprocess and asynchronous fraud analysis ![BPMN Diagram](diagrams/bpmn-diagram.png)
+1. **Use Case Diagram** – shows actors and primary system use cases 
+    ![Use Case Diagram](diagrams/use-case.png)
+2. **Class Diagram** – illustrates system objects, relationships, and inheritance 
+    ![Class Diagram](diagrams/class-diagram.png)
+3. **Sequence Diagram** – demonstrates the flow of actions from complaint submission to resolution 
+    ![Sequence Diagram](diagrams/sequence-diagram.png)
+4. **BPMN Diagram** – full end-to-end process including the “Client Contact” subprocess and asynchronous fraud analysis 
+    ![BPMN Diagram](diagrams/bpmn-diagram.png)
 

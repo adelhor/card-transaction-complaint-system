@@ -16,16 +16,20 @@ Business Context:
 * **Complaint Management System** – core process automation
 * **Fraud Detection Engine** – independent system for risk analysis
 
-## Key Diagrams
+## Selected Functional Requirements:
+1. Collect complaint data from clients, including transaction ID, date, amount, and reason.
+2. Perform automated fraud analysis and flag high-risk transactions.
+3. Notify support team and set complaint priority based on risk and workflow rules.
+4. Enable cancellation or rejection of transactions based on support decisions.
 
-### Use Case Diagram
-![Use Case Diagram](diagrams/use-case.png)
+## Selected Non-Functional Requirements:
+* Ensure first response to the client within 24 hours.
+* Maintain complete audit logs of all actions and decisions.
+*Provide system resilience via asynchronous processing to handle high complaint volumes.
 
-### Class Diagram
-![Class Diagram](diagrams/class-diagram.png)
+## Key Diagrams to Include:
+1. **Use Case Diagram** – shows actors and primary system use cases ![Use Case Diagram](diagrams/use-case.png)
+2. **Class Diagram** – illustrates system objects, relationships, and inheritance ![Class Diagram](diagrams/class-diagram.png)
+3. **Sequence Diagram** – demonstrates the flow of actions from complaint submission to resolution ![Sequence Diagram](diagrams/sequence-diagram.png)
+4. **BPMN Diagram** – full end-to-end process including the “Client Contact” subprocess and asynchronous fraud analysis ![BPMN Diagram](diagrams/bpmn-diagram.png)
 
-### Sequence Diagram
-![Sequence Diagram](diagrams/sequence-diagram.png)
-
-### BPMN Diagram
-![BPMN Diagram](diagrams/bpmn-diagram.png)

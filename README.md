@@ -2,7 +2,6 @@
 
 ## Business Context
 The system manages complaints submitted by bank clients regarding card transactions. Its purpose is to provide fast and accurate processing of complaints, support the customer service team in analyzing potentially unauthorized or erroneous transactions, and minimize fraud risk.
-Business Context:
 
 ## Scope of Analysis:
 * Business process modeling in BPMN
@@ -15,6 +14,7 @@ Business Context:
 * **Support** – verifies complaints and makes decisions
 * **Complaint Management System** – core process automation
 * **Fraud Detection Engine** – independent system for risk analysis
+* **Card Processing System** – external system used to cancel/reject transactions after a decision
 
 ## Selected Functional Requirements:
 1. Collect complaint data from clients, including transaction ID, date, amount, and reason.
@@ -25,7 +25,7 @@ Business Context:
 ## Selected Non-Functional Requirements:
 * Ensure first response to the client within 24 hours.
 * Maintain complete audit logs of all actions and decisions.
-*Provide system resilience via asynchronous processing to handle high complaint volumes.
+* Provide system resilience via asynchronous processing to handle high complaint volumes.
 
 ## Key Diagrams to Include:
 1. **Use Case Diagram** – shows actors and primary system use cases 

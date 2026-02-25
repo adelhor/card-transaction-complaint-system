@@ -37,4 +37,6 @@ The system manages complaints submitted by bank clients regarding card transacti
     ![Sequence Diagram](diagrams/sequence-diagram.png)
 4. **BPMN Diagram** – full end-to-end process including the “Client Contact” subprocess and asynchronous fraud analysis 
     ![BPMN Diagram](diagrams/bpmn-diagram.png)
+5. **Subprocess** - captures the client follow-up flow when complaint details are missing, including reminders and closing the case as Incomplete if no response is received.
+    ![BPMN Diagram](diagrams/bpmn-subprocess.png)
 

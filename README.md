@@ -21,6 +21,7 @@ The system manages complaints submitted by bank clients regarding card transacti
 2. Perform automated fraud analysis and flag high-risk transactions.
 3. Notify support team and set complaint priority based on risk and workflow rules.
 4. Enable cancellation or rejection of transactions based on support decisions.
+5. Allow Support to manually re-run fraud analysis after receiving additional client information.
 
 ## Selected Non-Functional Requirements:
 * Ensure first response to the client within 24 hours.

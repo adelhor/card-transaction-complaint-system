@@ -1,5 +1,5 @@
-# Process Analysis & UML Modeling
-## Process Analysis & UML Modeling Case Study
+# Card Transaction Complaint Management System
+  **Process Analysis & UML Modeling Case Study**
 
 ## Business Context
 The system manages complaints submitted by bank clients regarding card transactions. Its purpose is to provide fast and accurate processing of complaints, support the customer service team in analyzing potentially unauthorized or erroneous transactions, and minimize fraud risk.
